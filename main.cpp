@@ -92,6 +92,7 @@ int main()
             else if(comp.back().ss!=0&&comp[0].ss==0)
             {
                 comp[0].ff+=comp.back().ff;
+                comp[0].ss=comp.back().ss;
             }
             else if(comp.back().ss==0&&comp[0].ss!=0)
             {
